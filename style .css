@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;   
+}
+header{
+    position: fixed;
+    top: 0;
+    padding: 10px 50px;
+    /* background-image:linear-gradient(rgba(255, 255, 255, 0),rgba(128, 128, 128, 0)); */
+    background-image: url(./Imaes/wallpaperflare.com_wallpaper-6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+     width: 100%;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-image: url(./Imaes/wallpaperflare.com_wallpaper-26.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+/* transition-property: all;
+transition-timing-function: linear;
+transition-duration: 2sec;
+transition-delay: 3sec; */
+}
+.nav{
+  /* background-image: url(./Imaes/wallpaperflare.com_wallpaper-6.jpg); */
+    display: inline-block;
+    position: absolute;
+    top: 35%;
+    right: 10px;
+}
+
+.nav ul{
+    display: inline-block;
+    margin-left: 30px;
+  }
+
+  a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .nav ul li{
+    /* text-decoration: none; */
+    color: white;
+    display: inline-block;
+  margin-left: 90px;
+  background-color:rgba(240, 128, 128, 0);
+}
+
+.nav ul li a:hover{
+  background-color:whitesmoke;
+  color: rgb(0, 0, 0);
+padding-top: 500px;
+height: 20px;
+width: 30px;
+z-index:5 ; 
+}
+
+.container{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(to top left,purple,rgba(128, 128, 128, 0.404) );
+    border: 10ps solid ;
+    padding: 5px;
+    border-top-left-radius:50% ;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    position: sticky;
+    bottom: 20px;
+    left:1250px;
+    border: 5px solid palevioletred ;
+}
+
+p{
+    text-align: center;
+    padding: auto;
+    margin: 10px;
+}
+
+p:hover{
+    font-size: 18px;
+    color:yellow;
+     background-color: aquamarine;
+     background-image: linear-gradient(to top left,yellow,aqua);
+}
+
+section{
+    margin-top: 90px;
+    background-image: url(./Imaes/wallpaperflare.com_wallpaper-24.jpg);
+    background-repeat: no-repeat;
+    background: cover;
+    background-attachment: fixed;
+    background-position: center;
+   background-size: 1165px 640px;
+    
+}
